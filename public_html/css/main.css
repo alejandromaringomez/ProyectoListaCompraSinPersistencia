@@ -1,0 +1,70 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Cabecera*/
+
+main > header {
+    position: relative;
+    background-color: #006d84;
+    background-image: url('../img/header.png');
+    background-repeat: repeat;
+}
+
+main > header {
+    text-align: center;
+}
+
+main > header .titulo {
+    font-family: 'Baloo Bhaijaan', cursive;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.45);
+    color: #fff;
+}
+
+div#listado article {
+    position: relative;
+    background-color: #97C02F;
+    color: #fff;
+}
+
+div#listado article:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 50px 50px 0;
+    border-style: solid;
+    border-color: #fff #fff #658E15 #658E15;
+    background: #658E15;
+    display: block;
+    width: 0;
+}
+
+div#listado article > header > .titulo {
+    font-family: 'Cabin Sketch', cursive;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #fff;
+}
+
+div#listado article > section .nota {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    color: #3c5303;
+}
+
+div#listado article > footer {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Modificaciones para impresion */
+
+@media print {
+    @page {
+        margin: 0;
+    }
+}
