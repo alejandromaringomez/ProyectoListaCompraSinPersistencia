@@ -1,5 +1,5 @@
-# Lista de la compra
-Crea tu listado de la compra y compártela por WhatsApp (información no persistente).
+# Proyecto "Lista de la compra" (sin persistencia)
+Crea tu listado de la compra, compártela por WhatsApp o imprímela.
 
 ## License
 
